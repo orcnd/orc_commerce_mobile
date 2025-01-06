@@ -48,11 +48,10 @@ class LoginPage extends StatelessWidget {
               ),
               if (userController.isLoading)
                 Scaffold(
-                  backgroundColor: Colors.rgba,
+                  backgroundColor: Colors.white,
                   body: Center(
                     child: LoadingAnimationWidget.stretchedDots(
-                      leftDotColor: const Color(0xFF1A1A3F),
-                      rightDotColor: const Color(0xFFEA3799),
+                      color: const Color.fromARGB(255, 55, 67, 234),
                       size: 200,
                     ),
                   ),
